@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ffffff, #f4964e);
+    width: 100vw;
+    height: 100vh;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.form {
+    width: 450px;
+    height: 265px;
+    background: linear-gradient(to right bottom, #f6a58d, #f16f4b);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    transition: border-color 0.3s ease;
+}
+
+#input:focus {
+    height: 40px;
+    border-color: #ff7e5f;
+}
+
+#guessbutton {
+    padding: 10px 20px;
+    background-color: #f6572f;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#guessbutton:hover {
+    background-color: #f38d70;
+}
+
+.result {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom, #f6a58d, #f38d70);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#startGame {
+    padding: 10px 20px;
+    background-color: #f6572f;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startGame:hover {
+    background-color: #f38d70;
+}
+
+.startButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
